@@ -145,10 +145,12 @@
   <ItemGroup>
     <ClCompile Include="Background.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Objects.cpp" />
     <ClCompile Include="PlayerCar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background.hpp" />
+    <ClInclude Include="Objects.hpp" />
     <ClInclude Include="PlayerCar.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

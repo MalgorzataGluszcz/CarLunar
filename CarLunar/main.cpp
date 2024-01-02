@@ -1,4 +1,5 @@
 #include "Background.hpp"
+#include "Objects.hpp"
 #include "PlayerCar.hpp"
 
 int main()
@@ -6,6 +7,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(1920, 1080), "Car Lunar");
 
 	Background bg("LevelOne.png");
+	Objects obj("Fuel.png");
 	PlayerCar playerCar("Player.png");
 
 	sf::Clock gameClock;
@@ -33,6 +35,7 @@ int main()
 
 		window.clear();
 		bg.draw(window);
+		obj.draw(window);
 		playerCar.draw(window);
 		window.display();
 
